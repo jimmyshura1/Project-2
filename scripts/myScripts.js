@@ -34,6 +34,6 @@ document.getElementById('recipeForm').addEventListener('submit', function(e) {
         // Show the recipe output section
         document.getElementById('recipeOutput').style.display = 'block';
     } else {
-        alert("Error: Please enter both ingredients and directions in order to generate recipe!");
+        alert("Please enter both ingredients and directions!");
     }
 });
