@@ -1,0 +1,130 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: teal;
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: teal;
+}
+
+button:active {
+    background-color: black;
+    color: white;
+}
+
+.recipe-output {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e9f7e9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 8px 0;
+    background-color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    color: teal;
+}
+
+#recipe-output {
+    display: none;
+}
+
+.formItems {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formItems input {
+    font-size: 28px;
+    padding: 10px 20px;
+}
+
+.formItems button {
+    font-size: 24px;
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 14px 30px;
+}
+
+.formItems button:hover {
+    cursor: pointer;
+    background: white;
+    color: teal;
+}
+
+.formItems button:active {
+    background: black;
+    color: white;
+}
+
+#completed li {
+    text-decoration: line-through;
+    color: orange;
+}

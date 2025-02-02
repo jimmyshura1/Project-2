@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Builder</title>
+    <link rel="stylesheet" href="myStyleSheet.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Builder</h1>
+
+        <form id="recipeForm">
+            <label for="ingredients">Ingredients (Each ingredient can be separated by comma):</label>
+            <textarea id="ingredients" required></textarea>
+
+            <label for="directions">Directions (Please enter each step on a new line):</label>
+            <textarea id="directions" required></textarea>
+
+            <button type="submit">Generate Recipe</button>
+        </form>
+
+        <div id="recipeOutput" class="recipeOutput" style="display: none;">
+            <h2>Ingredients</h2>
+            <ul id="ingredientOutput"></ul>
+            <h2>Directions</h2>
+            <ul id="directionOutput"></ul>
+        </div>
+    </div>
+
+    <script src="myScripts.js"></script>
+</body>
+</html>
